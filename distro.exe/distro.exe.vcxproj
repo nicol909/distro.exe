@@ -172,9 +172,202 @@
     <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512" />
     <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.nuspec" />
     <None Include="..\..\..\..\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\net\_._" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Alfresco-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Ansible-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Bash-Other-Bash.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Bash.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\CentOS-7-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\CentOS-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\CentOS-Virtual-Machine-Copy-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\CentOS.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\CentOS6-and-CentOS7.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\CI-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Confluence-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Crontab.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Daemontools.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Docker-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Dubbo-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Elasticsearch-Base.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ELK-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\FastDFS-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\FastDFS-Nginx-Lua-GraphicsMagick.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\File-Extract-Compress.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Flink-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\FTP.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Gitlab-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Glances-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\GoAccess-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Grafana-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Hadoop-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Harbor-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Hsk-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Influxdb-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Iptables.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Java-bin.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\JDK-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Jenkins-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Jira-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\JMeter-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\K8S-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Kafka-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\kali-linux-settings\kali-linux-basic-settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\kali-linux-settings\kali-linux-install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\kali-linux-settings\kali-linux-penetration-test.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\kali-linux-settings\kali-linux-social-engineering.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\kali-linux-settings\kali-linux-sql-injection.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\kali-linux-settings\kali-linux-toc.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Kibana-Base.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Kubernetes-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\LDAP-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Linux.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Logstash-Base.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\maintenance.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Maven-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\MongoDB-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\monitor.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Mycat-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Mysql-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Mysql-Optimize.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Mysql-Test.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Mysql-Tutorial.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Nexus-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\NFS.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Nginx-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Nginx-Keepalived-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Nmon.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Node-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\NTP.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Off-line-Yum-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Openfire-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\other.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Portainer-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\PostgreSQL-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Prometheus-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\PXC-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Python-Ubuntu.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\RabbitMQ-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Rap-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Redis-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Samba.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Sed.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\shell-safe-rm.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Shell.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Showdoc-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\SkyWalking-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Solr-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\SonarQube-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Spark-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\speedtest.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\SSH-login-without-password.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\SSH.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\SSR-Client-Ubuntu.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\SVN-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\TeamCity-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Thrift-Install-And-Usage.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Tmux-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Tomcat-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Ubuntu-Install-VMware.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Ubuntu-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Ubuntu-Popular-Software.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ubuntu-settings\Network-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ubuntu-settings\Ubuntu-Create-Desktop.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ubuntu-settings\Ubuntu-Extra-Packages.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ubuntu-settings\Ubuntu-Popular-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ubuntu-settings\ubuntu-settings-toc.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\ubuntu-settings\Ubuntu-UI.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Ubuntu-Specific-Command.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Ubuntu.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Vim-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\VPN.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Was-Hacked.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\WordPress-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Wormhole-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\wrk-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\YApi-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Zabbix-Install-And-Settings.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Zookeeper-Install.md" />
+    <None Include="..\..\Linux-Tutorial\markdown-file\Zsh.md" />
     <None Include="E:\Cake\CMakeSettings.json" />
     <None Include="E:\Téléchargements\WSL-DistroLauncher-master.zip" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Windows.AI">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.AI.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.ApplicationModel">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.ApplicationModel.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Data">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Data.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Devices">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Devices.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Foundation">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Foundation.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Gaming">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Gaming.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Globalization">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Globalization.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Graphics">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Graphics.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Management">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Management.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Media">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Media.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Networking">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Networking.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Perception">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Perception.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Security">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Security.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Services">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Services.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Storage">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Storage.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.System">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.System.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.UI">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.UI.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.UI.Xaml">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.UI.Xaml.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
+    <Reference Include="Windows.Web">
+      <HintPath>..\..\..\..\..\..\Windows\WinSxS\wow64_microsoft-windows-runtime-metadata_31bf3856ad364e35_10.0.19041.1_none_f137f323db982e3c\Windows.Web.winmd</HintPath>
+      <IsWinMDFile>true</IsWinMDFile>
+    </Reference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
