@@ -154,6 +154,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="distro.exe.cpp" />
+    <ClCompile Include="E:\Visual C++ Source\vcpkglib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="distro.exe.rc" />
@@ -162,7 +163,30 @@
     <Image Include="distro.exe.ico" />
     <Image Include="small.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtimes\ubuntu.16.04-x64\native\System.Security.Cryptography.Native.OpenSsl.so" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.nuspec" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\net\_._" />
+    <None Include="E:\Cake\CMakeSettings.json" />
+    <None Include="E:\Téléchargements\WSL-DistroLauncher-master.zip" />
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
+    <Import Project="..\packages\OpenSSL.Static.Uwp.1.0.2.1\build\native\OpenSSL.Static.Uwp.targets" Condition="Exists('..\packages\OpenSSL.Static.Uwp.1.0.2.1\build\native\OpenSSL.Static.Uwp.targets')" />
+    <Import Project="..\packages\OpenSSL110g_Static_vc140_MD.1.1.0\build\native\OpenSSL110g_Static_vc140_MD.targets" Condition="Exists('..\packages\OpenSSL110g_Static_vc140_MD.1.1.0\build\native\OpenSSL110g_Static_vc140_MD.targets')" />
+    <Import Project="..\packages\Xamarin.Google.iOS.Core.3.1.0.1\build\Xamarin.Google.iOS.Core.targets" Condition="Exists('..\packages\Xamarin.Google.iOS.Core.3.1.0.1\build\Xamarin.Google.iOS.Core.targets')" />
   </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\OpenSSL.Static.Uwp.1.0.2.1\build\native\OpenSSL.Static.Uwp.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenSSL.Static.Uwp.1.0.2.1\build\native\OpenSSL.Static.Uwp.targets'))" />
+    <Error Condition="!Exists('..\packages\OpenSSL110g_Static_vc140_MD.1.1.0\build\native\OpenSSL110g_Static_vc140_MD.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\OpenSSL110g_Static_vc140_MD.1.1.0\build\native\OpenSSL110g_Static_vc140_MD.targets'))" />
+    <Error Condition="!Exists('..\packages\Xamarin.Google.iOS.Core.3.1.0.1\build\Xamarin.Google.iOS.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Xamarin.Google.iOS.Core.3.1.0.1\build\Xamarin.Google.iOS.Core.targets'))" />
+  </Target>
 </Project>

@@ -32,6 +32,9 @@
     <ClCompile Include="distro.exe.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="E:\Visual C++ Source\vcpkglib.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="distro.exe.rc">
@@ -45,5 +48,19 @@
     <Image Include="distro.exe.ico">
       <Filter>Fichiers de ressources</Filter>
     </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtimes\ubuntu.16.04-x64\native\System.Security.Cryptography.Native.OpenSsl.so">
+      <Filter>Fichiers sources</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\4.3.2\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.nuspec" />
+    <None Include="..\..\..\..\.nuget\packages\runtime.win.microsoft.win32.primitives\4.0.1\runtimes\win\lib\net\_._" />
+    <None Include="E:\Cake\CMakeSettings.json" />
+    <None Include="E:\Téléchargements\WSL-DistroLauncher-master.zip" />
   </ItemGroup>
 </Project>
